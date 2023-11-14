@@ -1,9 +1,10 @@
 package clockface_test
 
 import (
-	"clockface"
 	"testing"
 	"time"
+
+	. "github.com/theodorehreuter/learn_go_with_tests/math/clockface"
 )
 
 func TestSecondHandAtMidnight(t *testing.T) {
