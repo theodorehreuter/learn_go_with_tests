@@ -1,6 +1,13 @@
 package blogposts
 
+import "testing/fstest"
 
-var posts []blogposts.Post
-posts = blogposts.NewPostsFromFS("some-folder")
+type Post struct {
+}
 
+func NewPostsFromFS(fileSystem fstest.MapFS) []Post {
+	return nil
+}
+
+// var posts []blogposts.Post
+// posts = blogposts.NewPostsFromFS(someFS)
