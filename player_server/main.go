@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	ps "github.com/theodorehreuter/learn_go_with_tests/server"
+	ps "github.com/theodorehreuter/learn_go_with_tests/player_server/server"
 )
 
 func main() {
